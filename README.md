@@ -1,5 +1,5 @@
 # Nexter
 
-Nexter is a project design and build by Jonas Schmedtmann to demonstrate how to use as many CSS Grid properties as possible.
+Nexter is a project designed and built by Jonas Schmedtmann to demonstrate how to use as many CSS Grid properties as possible.
 
-I use improve my knowledge and skill of CSS Grid as I coded along.
+I used this project to improve my knowledge and skill of CSS Grid as I coded along.
