@@ -305,7 +305,38 @@ body {
 
 .footer {
   background-color: #101d2c;
+  padding: 8rem;
   grid-column: full-start/full-end;
+}
+
+.nav {
+  list-style: none;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  align-items: center;
+}
+.nav__link:link, .nav__link:visited {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 1.5rem;
+  transition: all 0.2s;
+}
+.nav__link:hover, .nav__link:active {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.copyright {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #aaa;
+  width: 70%;
+  margin: 6rem auto 0;
 }
 
 /*# sourceMappingURL=style.css.map */
