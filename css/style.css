@@ -175,7 +175,30 @@ body {
 
 .realtors {
   background-color: #101d2c;
+  padding: 3rem;
   grid-column: col-start 7/full-end;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 2rem;
+}
+.realtors__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: min-content max-content;
+  align-items: center;
+  gap: 5vh 2rem;
+}
+.realtors__img {
+  display: block;
+  width: 7rem;
+  border-radius: 50%;
+}
+.realtors__sold {
+  text-transform: uppercase;
+  color: #aaa;
+  margin-top: -3px;
 }
 
 .features {
